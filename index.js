@@ -6,10 +6,10 @@ function upperCaseCustomerName() {
   return customerName;
 };
 
-var bestCustomer; 
+
 
 function setBestCustomer() {
-    bestCustomer = 'not bob';
+    window.bestCustomer='not bob';
 };
 
 function overwriteBestCustomer() {
